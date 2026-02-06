@@ -52,3 +52,35 @@ img , p {
   max-width: 100%;
   height: auto;
 }
+
+#screen img {
+  float: left;
+  width: 600px;
+  height: 600px;
+}
+
+#screen {
+  width: 9999px;
+  height: 700px;
+  animation:  10s text infinite;
+  animation-direction: alternate;
+}
+
+#tv {
+  width: 600px;
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@keyframes text {
+  0% { }
+  12.5% { transform: translateX(0); }
+  25% { transform: translateX(0); }
+  37.5% { transform: translateX(-600px); }
+  50% { transform: translateX(-600px); }
+  62.5% { transform: translateX(-1200px); }
+  75% { transform: translateX(-1200px); }
+  87.5% { transform: translateX(-1800px); }
+  100% { transform: translateX(-1800px); }
+}
