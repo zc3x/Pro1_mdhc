@@ -1,0 +1,31 @@
+.soft {
+  font-size: 0.9em;
+  font-weight: 370;
+  font-style: italic;
+  color: #bf9e6f;
+}
+
+.da {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: red;
+}
+
+.houzhong {
+  font-size: 1.3em;
+  font-weight: 570;
+  color: #2c2618;
+}
+
+.qinsuang {
+  color: rgba(22, 97, 95, 0.79);
+}
+
+.reqie {
+  color: rgba(228, 96, 14, 0.77);
+}
+
+p,img {
+  text-align: center;
+  line-height: 1.7;
+}
