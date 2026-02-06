@@ -61,14 +61,14 @@ img , p {
 
 #screen {
   width: 9999px;
-  height: 700px;
+  height: 600px;
   animation:  10s text infinite;
   animation-direction: alternate;
 }
 
 #tv {
   width: 600px;
-  height: 700px;
+  height: 600px;
   margin: 0 auto;
   overflow: hidden;
 }
