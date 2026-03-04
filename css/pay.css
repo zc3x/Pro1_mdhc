@@ -29,20 +29,31 @@ body{
 .title{
   text-align: center;
   font-size: 29px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #333;
 }
 
 .price{
   text-align: center;
   font-size: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: #cd0000;
   font-weight: bold;
 }
 
 .item{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.item button{
+  text-align: center;
+  width: 100%;
+  background: rgb(205, 0, 0);
+  color: #e3dbdb;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  height: 45px;
 }
 
 label{
@@ -71,4 +82,10 @@ input{
 
 .loading-page{
   display: none;
+}
+
+#tip{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 5;
 }
