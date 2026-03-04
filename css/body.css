@@ -1,5 +1,5 @@
 .soft {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 370;
   font-style: italic;
   color: #ddbb8d;
@@ -64,6 +64,7 @@ img , p {
   height: 600px;
   animation:  10s text infinite;
   animation-direction: alternate;
+  margin: auto;
 }
 
 #tv {
