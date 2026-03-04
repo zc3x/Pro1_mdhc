@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ch" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>不是你真买啊？！</title>
+  <link rel="stylesheet" href="css/pay.css">
+</head>
+<body>
+  <div id = "payPage" class = "container">
+    <div class="title">确认支付</div>
+    <div class="price"> $100.99</div>
+    <div class="item">
+      <label>
+        订单编号:
+        <input aria-label="订单编号" type="text" value="114514" readonly>
+      </label>
+    </div>
+    <div class="item">
+      <label>支付方式</label>
+      <div class = "pay-type">
+        <label>
+          <input type="radio" name="payType" checked>
+          微信
+        </label>
+        <label>
+          <input type="radio" name="payType" checked>
+          支付宝
+        </label>
+      </div>
+    </div>
+    <div class="item">
+      <label>
+        支付密码：
+      </label>
+    </div>
+    <button id = "payBut">立即支付</button>
+    <p id = "tip"></p>
+  </div>
+  <script src="js/pay.js"></script>
+
+</body>
+</html>
