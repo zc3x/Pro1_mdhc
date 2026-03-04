@@ -31,11 +31,19 @@
     <div class="item">
       <label>
         支付密码：
+        <input type="password" id="pwd" placeholder="请输入六位数支付密码" maxlength="6">
       </label>
     </div>
-    <button id = "payBut">立即支付</button>
-    <p id = "tip"></p>
+    <button id = "payBut" onclick="toPay()">立即支付</button>
+    <div id = "tip">安全支付*请勿泄露密码</div>
   </div>
+  <div id = "loading" class = "container loading-page">
+    <p>正在处理支付，请稍候...</p>
+  </div>
+  <div id = "success" class = "container success-page">
+    <h2>支付成功！</h2>
+  </div>
+
   <script src="js/pay.js"></script>
 
 </body>

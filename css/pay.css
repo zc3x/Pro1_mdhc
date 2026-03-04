@@ -63,3 +63,12 @@ input{
   display: flex;
   gap: 55px;
 }
+
+.success-page{
+  display: none;
+  text-align: center;
+}
+
+.loading-page{
+  display: none;
+}
